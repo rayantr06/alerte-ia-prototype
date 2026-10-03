@@ -2,7 +2,7 @@
 
 Collaborative emergency-call research prototype.
 
-![Alerte IA target workflow: audio call, transcription and structured incident information for operator validation](docs/assets/alerte-ia-flow.png)
+![Alerte IA target workflow: audio call, transcription and structured incident information for operator validation](docs/assets/alerte-ia-flow-rescue.png)
 
 ## Repository status
 

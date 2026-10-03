@@ -14,13 +14,13 @@ The cover is a project illustration, not a screenshot of a working application. 
 
 The collaborative prototype combines a Python/FastAPI backend with a Next.js/TypeScript frontend. Its operator interface is intended to present transcription and structured incident information.
 
-Rayan Terki's role is software development: collection and annotation tools, model integration, and contributions to the operator interface. This repository does not claim research authorship, model performance, or operational deployment results.
+Rayan Terki's role is software development: collection and annotation tools, model integration, and contributions to the operator interface.
 
 ## Public release scope
 
 The public version will be prepared using synthetic examples and reviewed application code. Real emergency-call recordings, transcripts, personal information, credentials, environment files, and internal documents are excluded.
 
-Setup instructions will be added with the application source code. There are no executable installation instructions or a public demo in this repository yet.
+Setup instructions will be added with the application source code.
 
 ## Links
 

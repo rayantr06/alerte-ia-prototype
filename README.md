@@ -2,13 +2,13 @@
 
 Collaborative emergency-call research prototype.
 
-![Alerte IA project illustration](docs/assets/alerte-ia-blue.png)
+![Alerte IA target workflow: audio call, transcription and structured incident information for operator validation](docs/assets/alerte-ia-flow.png)
 
 ## Repository status
 
 This repository contains a sanitized public adaptation of the existing collaborative prototype: a **FastAPI backend** and a **Next.js/TypeScript operator interface**. The default local demo uses **three entirely fictional scenarios**, predefined incident fields and deterministic statistics. It runs without a GPU, model downloads or API credentials.
 
-The cover above is an illustration. This is a **research prototype**, with simulated call and transfer controls. It is not an operational emergency-response system.
+The cover illustrates the intended audio → transcription → structured incident workflow using fictional information. This is a **research prototype**, with simulated call and transfer controls. It is not an operational emergency-response system.
 
 ## Project
 

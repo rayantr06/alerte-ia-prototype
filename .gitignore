@@ -1,0 +1,26 @@
+# Local credentials and environments
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Private source material
+data/
+datasets/
+recordings/
+transcripts/
+internal/
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.zip
+
+# Build output
+node_modules/
+.next/
+.venv/
+__pycache__/
+*.pyc
+dist/

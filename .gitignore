@@ -1,7 +1,6 @@
 # Local credentials and environments
 .env
 .env.*
-!.env.example
 *.pem
 *.key
 
@@ -15,7 +14,23 @@ internal/
 *.mp3
 *.m4a
 *.flac
+*.ogg
+*.webm
+*.csv
+*.jsonl
+*.parquet
+*.safetensors
+*.pt
+*.pth
+*.bin
 *.zip
+backend/runtime/
+backend/audio/
+backend/whisper_model/
+backend/data_history.json
+backend/donnee_reel.json
+*.log
+*.tsbuildinfo
 
 # Build output
 node_modules/

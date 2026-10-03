@@ -1,0 +1,7 @@
+-r requirements.txt
+torch
+transformers
+accelerate
+librosa
+soundfile
+bitsandbytes; sys_platform == 'linux'

@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --color-on-error: #ffffff;
+  --color-outline-variant: #e4beba;
+  --color-surface-bright: #f9f9fe;
+  --color-tertiary-fixed: #ffdcc6;
+  --color-surface-tint: #ba1a20;
+  --color-on-primary-fixed: #410003;
+  --color-on-tertiary-fixed: #311300;
+  --color-on-secondary-container: #656464;
+  --color-on-surface: #1a1c1f;
+  --color-inverse-primary: #ffb3ac;
+  --color-secondary-container: #e5e2e1;
+  --color-surface-variant: #e2e2e7;
+  --color-tertiary-container: #b05700;
+  --color-surface-container-high: #e8e8ed;
+  --color-primary-container: #d32f2f;
+  --color-on-error-container: #93000a;
+  --color-secondary-fixed-dim: #c8c6c5;
+  --color-primary-fixed: #ffdad6;
+  --color-surface-dim: #d9dade;
+  --color-on-primary: #ffffff;
+  --color-background: #F4F4F9;
+  --color-on-primary-container: #fff2f0;
+  --color-on-tertiary: #ffffff;
+  --color-surface-container-low: #f3f3f8;
+  --color-on-secondary-fixed: #1c1b1b;
+  --color-on-secondary: #ffffff;
+  --color-surface-container-lowest: #ffffff;
+  --color-inverse-on-surface: #f0f0f5;
+  --color-error-container: #ffdad6;
+  --color-on-secondary-fixed-variant: #474646;
+  --color-primary: #af101a;
+  --color-on-primary-fixed-variant: #930010;
+  --color-on-background: #1a1c1f;
+  --color-primary-fixed-dim: #ffb3ac;
+  --color-outline: #8f6f6c;
+  --color-secondary-fixed: #e5e2e1;
+  --color-surface-container: #ededf2;
+  --color-inverse-surface: #2e3034;
+  --color-on-tertiary-fixed-variant: #723600;
+  --color-surface: #f9f9fe;
+  --color-secondary: #5f5e5e;
+  --color-error: #ba1a1a;
+  --color-on-tertiary-container: #fff2eb;
+  --color-on-surface-variant: #5b403d;
+  --color-surface-container-highest: #e2e2e7;
+  --color-tertiary-fixed-dim: #ffb786;
+  --color-tertiary: #8b4400;
+
+  --font-h1: Roboto, sans-serif;
+  --font-h2: Roboto, sans-serif;
+  --font-h3: Roboto, sans-serif;
+  --font-body-lg: Inter, sans-serif;
+  --font-body-md: Inter, sans-serif;
+  --font-data-mono: Roboto Mono, monospace;
+  --font-label-caps: Inter, sans-serif;
+
+  --spacing-sidebar_width: 20%;
+}
+
+@layer utilities {
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+  .material-symbols-outlined.fill {
+    font-variation-settings: 'FILL' 1;
+  }
+  @keyframes bounce-short {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+  }
+  .animate-bounce-short {
+    animation: bounce-short 1s ease-in-out infinite;
+  }
+}
+
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "demo-001",
+    "date": "2026-01-01T10:00:00",
+    "nature": "Accidents de la circulation",
+    "synthetic": true,
+    "transcription": "Exemple fictif : une collision entre deux véhicules sur la route fictive A à Béjaïa. Une personne présente une blessure légère.",
+    "fields": {
+      "incident_type": "accident_vehicular",
+      "intent": "request_help",
+      "urgency_human": "unknown",
+      "commune": "Béjaïa",
+      "daira": "Béjaïa",
+      "lieu": "Route fictive A",
+      "location_description": "Scénario entièrement fictif",
+      "victims_count": 1,
+      "injury_severity": "minor",
+      "fire_present": "no",
+      "trapped_persons": "no"
+    }
+  },
+  {
+    "id": "demo-002",
+    "date": "2026-01-02T11:00:00",
+    "nature": "Incendies et Explosions",
+    "synthetic": true,
+    "transcription": "Exemple fictif : un incendie dans le bâtiment fictif B à Akbou. Les occupants sont sortis. Aucune personne blessée.",
+    "fields": {
+      "incident_type": "fire_building",
+      "intent": "request_help",
+      "urgency_human": "unknown",
+      "commune": "Akbou",
+      "daira": "Akbou",
+      "lieu": "Bâtiment fictif B",
+      "location_description": "Scénario entièrement fictif",
+      "victims_count": 0,
+      "injury_severity": "none",
+      "fire_present": "yes",
+      "trapped_persons": "no"
+    }
+  },
+  {
+    "id": "demo-003",
+    "date": "2026-01-03T12:00:00",
+    "nature": "Secours et Évacuation",
+    "synthetic": true,
+    "transcription": "Exemple fictif : une personne signale un malaise au lieu fictif C à Amizour. Le scénario est créé uniquement pour la démonstration.",
+    "fields": {
+      "incident_type": "medical_emergency",
+      "intent": "request_help",
+      "urgency_human": "unknown",
+      "commune": "Amizour",
+      "daira": "Amizour",
+      "lieu": "Lieu fictif C",
+      "location_description": "Scénario entièrement fictif",
+      "victims_count": 1,
+      "injury_severity": "unknown",
+      "fire_present": "no",
+      "trapped_persons": "no"
+    }
+  }
+]

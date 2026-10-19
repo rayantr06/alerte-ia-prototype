@@ -2,6 +2,11 @@
 
 Collaborative emergency-call research prototype.
 
+## Case study
+
+**[Read the case study (FR)](docs/etude-de-cas.md)**: field context, multilingual data preparation, technical choices, human validation and lessons from the broader civil-protection research project. The case study distinguishes completed work from planned features and explains the prototype’s limits. The sanitized demo in this repository has the narrower scope described below.
+
+
 ![Alerte IA target workflow: audio call, transcription and structured incident information for operator validation](docs/assets/alerte-ia-flow-rescue.png)
 
 ## Repository status
@@ -15,10 +20,6 @@ The cover illustrates the intended audio → transcription → structured incide
 The collaborative prototype combines a Python/FastAPI backend with a Next.js/TypeScript frontend. Its operator interface is intended to present transcription and structured incident information.
 
 Rayan Terki's role is software development: collection and annotation tools, model integration, and contributions to the operator interface.
-
-## Case study
-
-[Lire l’étude de cas en français](docs/etude-de-cas.md): field context, multilingual data preparation, technical choices, human validation and lessons from the broader civil-protection research project. The case study distinguishes completed work from planned features and explains the prototype’s limits. The sanitized demo in this repository has the narrower scope described below.
 
 ## Run the local demo
 

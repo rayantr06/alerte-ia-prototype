@@ -16,6 +16,10 @@ The collaborative prototype combines a Python/FastAPI backend with a Next.js/Typ
 
 Rayan Terki's role is software development: collection and annotation tools, model integration, and contributions to the operator interface.
 
+## Case study
+
+[Lire l’étude de cas en français](docs/etude-de-cas.md): field context, multilingual data preparation, technical choices, human validation and lessons from the broader civil-protection research project. The case study distinguishes completed work from planned features and explains the prototype’s limits. The sanitized demo in this repository has the narrower scope described below.
+
 ## Run the local demo
 
 Requirements: Python 3.12 and Node.js 22 with npm. From the repository root:
